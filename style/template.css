@@ -1,0 +1,116 @@
+@charset "utf-8";
+/***************** Default Styles *******************/
+@font-face		{ src:url(../font/hp-simplified-light.ttf); font-family:HPSimplifiedLight; }
+@font-face		{ src:url(../font/hp-simplified-556.ttf); font-family:HPSimplifiedBold; }
+@font-face		{ src:url(../font/hp-simplified.ttf); font-family:HPSimplifiedRegular; }
+@font-face		{ src:url(../font/OpenSans-Regular.ttf); font-family:OpenSans; }
+
+
+
+
+.banner h1													{ margin-top:170px;}
+.spaceT														{ margin-top:40px;}
+.headingB													{ font-size:50px; font-family:HPSimplifiedBold;}
+.headingC													{ font-size:26px; font-family:HPSimplifiedRegular;}
+.headingM													{ font-size:36px; font-family:HPSimplifiedRegular;}
+.headingS													{ font-size:28px;}
+.tx															{ font-size:18px; font-family:OpenSans;}
+.txs														{ font-size:14px; font-family:OpenSans;}
+.comment													{ font-size:22px; font-family:OpenSans;}
+.comment		a											{ font-size:22px; font-family:OpenSans; font-weight:bolder; text-decoration:underline;}
+
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus { outline: 0 none;}
+.input-group	span							{ color:#fff}
+
+
+.navbar-default												{ display:none;}
+.navbar .navbar-brand										{ font-family:HPSimplifiedBold; font-size:30px;}
+.navbar .nav > li > a		 								{ font-family:OpenSans;}
+.navbar .nav > 		button	 								{ font-family:OpenSans;}
+.banner														{ background-color:#CCC; height:500px;}
+/******   FOOTER        ********************/
+.firstLine													{ background-color:#232323;}
+.footerPanel												{ padding:30px  0px;}
+.footerPanel	.hDs										{ color:#FFF;}
+.footerPanel	.hDm										{ color:#FFF; }
+.footerPanel	.tx											{ color:#999}
+.footerPanel	.tx	span									{ color:#fff}
+.footerPanel	.tx	a i										{ color:#999}
+.footerPanel	.tx	a:hover i								{ color:#fff}
+.footerPanel	.tx i										{ color:#FFF; }
+.footerPanel 	.row										{ padding:10px 0px;}
+.footerPanel hr												{ border-top: 1px solid #666;}
+.footerPanel	input										{ height:40px;}
+.btn-subscribe												{ background-color:#3D466E; color:#fff; height:40px;}
+.btn-subscribe:hover										{ background-color:#CCC; }
+
+.lastLine													{ background-color:#1E1E1E; text-align:center;}
+.lastLine	p												{ color:#CCC; margin-bottom:0px; padding:10px 0px; }
+.lastLine	span											{ color:#FFF; }
+footer .hDs														{ font-size:36px; font-family:HPSimplifiedBold;}
+footer .hDm														{ font-size:18px; font-family:OpenSans;}
+footer .tx		 													{ font-size:14px; font-family:OpenSans;}	
+/******   FOOTER        *************(END)***/
+
+
+
+
+
+
+
+
+/***************** MOBILE PORTRAIT*******************/
+
+
+
+
+
+
+/***************** MOBILE LANDSCAPE*******************/
+@media only screen and (min-width : 480px) {
+
+
+
+
+
+
+
+}
+
+/***************** TABLET PORTRAIT*******************/
+@media only screen and (min-width : 768px) {
+
+
+
+
+
+
+
+}
+
+/***************** TABLET SCREEN LANDSCAPE*******************/
+@media only screen and (min-width : 992px) {
+
+
+
+
+
+
+
+
+}
+
+/***************** LARGE SCREEN *******************/
+@media only screen  and (min-width : 1200px) {
+
+
+
+
+
+
+
+
+
+}
